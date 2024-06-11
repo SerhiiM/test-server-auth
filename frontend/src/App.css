@@ -1,0 +1,20 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.navigation-tabs {
+    display: flex;
+}
+
+.navigation-tabs > div { 
+    text-align: center;
+    width: 100px;
+}
+
+.navigation-user {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
